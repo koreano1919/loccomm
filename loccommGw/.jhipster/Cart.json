@@ -1,0 +1,28 @@
+{
+  "name": "Cart",
+  "fields": [
+    {
+      "fieldName": "amount",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "cartItem",
+      "otherEntityRelationshipName": "cart",
+      "relationshipName": "cartItem"
+    }
+  ],
+  "changelogDate": "20201209140207",
+  "entityTableName": "cart",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["loccommGw", "loccommCart"]
+}

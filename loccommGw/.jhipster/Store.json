@@ -1,0 +1,16 @@
+{
+  "name": "Store",
+  "fields": [],
+  "relationships": [],
+  "changelogDate": "20201209135907",
+  "entityTableName": "store",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["loccommGw", "loccommStore"]
+}

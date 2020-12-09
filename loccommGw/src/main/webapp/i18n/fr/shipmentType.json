@@ -1,0 +1,24 @@
+{
+  "loccommGwApp": {
+    "shipmentType": {
+      "home": {
+        "title": "ShipmentTypes",
+        "createLabel": "Créer un nouveau Shipment Type",
+        "createOrEditLabel": "Créer ou éditer un Shipment Type",
+        "notFound": "Aucun Shipment Type trouvé"
+      },
+      "created": "Un nouveau Shipment Type a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Shipment Type avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Shipment Type avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Shipment Type {{ id }} ?"
+      },
+      "detail": {
+        "title": "Shipment Type"
+      },
+      "name": "Name",
+      "value": "Value",
+      "description": "Description"
+    }
+  }
+}

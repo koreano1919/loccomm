@@ -1,0 +1,23 @@
+{
+  "loccommGwApp": {
+    "productAttrs": {
+      "home": {
+        "title": "ProductAttrs",
+        "createLabel": "Créer un nouveau Product Attrs",
+        "createOrEditLabel": "Créer ou éditer un Product Attrs",
+        "notFound": "Aucun Product Attrs trouvé"
+      },
+      "created": "Un nouveau Product Attrs a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Product Attrs avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Product Attrs avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Product Attrs {{ id }} ?"
+      },
+      "detail": {
+        "title": "Product Attrs"
+      },
+      "productId": "Product Id",
+      "productAttributeId": "Product Attribute Id"
+    }
+  }
+}

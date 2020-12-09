@@ -1,0 +1,25 @@
+{
+  "loccommGwApp": {
+    "productAttributeType": {
+      "home": {
+        "title": "Product Attribute Types",
+        "createLabel": "Create a new Product Attribute Type",
+        "createOrEditLabel": "Create or edit a Product Attribute Type",
+        "notFound": "No Product Attribute Types found"
+      },
+      "created": "A new Product Attribute Type is created with identifier {{ param }}",
+      "updated": "A Product Attribute Type is updated with identifier {{ param }}",
+      "deleted": "A Product Attribute Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Attribute Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Attribute Type"
+      },
+      "name": "Name",
+      "value": "Value",
+      "description": "Description",
+      "productAttribute": "Product Attribute"
+    }
+  }
+}

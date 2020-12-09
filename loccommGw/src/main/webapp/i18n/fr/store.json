@@ -1,0 +1,21 @@
+{
+  "loccommGwApp": {
+    "store": {
+      "home": {
+        "title": "Stores",
+        "createLabel": "Créer un nouveau Store",
+        "createOrEditLabel": "Créer ou éditer un Store",
+        "notFound": "Aucun Store trouvé"
+      },
+      "created": "Un nouveau Store a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Store avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Store avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Store {{ id }} ?"
+      },
+      "detail": {
+        "title": "Store"
+      }
+    }
+  }
+}

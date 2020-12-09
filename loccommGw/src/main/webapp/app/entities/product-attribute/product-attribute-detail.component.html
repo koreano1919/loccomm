@@ -1,0 +1,58 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="productAttribute">
+            <h2><span jhiTranslate="loccommGwApp.productAttribute.detail.title">Product Attribute</span> {{ productAttribute.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.productId">Product Id</span></dt>
+                <dd>
+                    <span>{{ productAttribute.productId }}</span>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.name">Name</span></dt>
+                <dd>
+                    <span>{{ productAttribute.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.value">Value</span></dt>
+                <dd>
+                    <span>{{ productAttribute.value }}</span>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.description">Description</span></dt>
+                <dd>
+                    <span>{{ productAttribute.description }}</span>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.type">Type</span></dt>
+                <dd>
+                    <span>{{ productAttribute.type }}</span>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.productAttributeType">Product Attribute Type</span></dt>
+                <dd>
+                    <div *ngIf="productAttribute.productAttributeType">
+                        <a [routerLink]="['/product-attribute-type', productAttribute.productAttributeType?.id, 'view']">{{ productAttribute.productAttributeType?.id }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="loccommGwApp.productAttribute.product">Product</span></dt>
+                <dd>
+                    <div *ngIf="productAttribute.product">
+                        <a [routerLink]="['/product', productAttribute.product?.id, 'view']">{{ productAttribute.product?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/product-attribute', productAttribute.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

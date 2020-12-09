@@ -1,0 +1,16 @@
+{
+  "name": "Shipment",
+  "fields": [],
+  "relationships": [],
+  "changelogDate": "20201209140007",
+  "entityTableName": "shipment",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["loccommGw", "loccommShipment"]
+}
