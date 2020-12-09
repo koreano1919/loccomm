@@ -1,0 +1,16 @@
+{
+  "name": "Category",
+  "fields": [],
+  "relationships": [],
+  "changelogDate": "20201209135807",
+  "entityTableName": "category",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["loccommGw", "loccommSearch"]
+}

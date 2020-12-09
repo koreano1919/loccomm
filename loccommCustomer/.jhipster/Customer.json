@@ -1,0 +1,32 @@
+{
+  "name": "Customer",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "surname",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "address",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "address"
+    }
+  ],
+  "changelogDate": "20201209140607",
+  "entityTableName": "customer",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["loccommGw", "loccommCustomer"]
+}
